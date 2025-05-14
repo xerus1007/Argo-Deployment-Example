@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-container
-        image: xerus1007/xerus-k8s-sample-test:v1.0.1
+        image: xerus1007/xerus-k8s-sample-test:v1.0.2
         imagePullPolicy: Always
         ports:
         - containerPort: 80
